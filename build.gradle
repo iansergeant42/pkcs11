@@ -1,0 +1,8 @@
+plugins {
+    id "application"
+}
+apply plugin : "java"
+dependencies {
+    implementation files(fileTree(dir: "lib", include: "ibmpkcs.jar"))
+    implementation files(fileTree(dir: "lib", include: "ibmpkcs11impl.jar"))
+}
