@@ -26,7 +26,7 @@ public class SunAccessToken {
     /**
      * Main methods
      *
-     * @param args not passed
+     * @param args The algorithm to be used
      */
     public static void main(String[] args) {
 
